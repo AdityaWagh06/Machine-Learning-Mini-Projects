@@ -90,3 +90,7 @@ plt.show()
 
 print("Slope:", model.coef_)
 print("Intercept:", model.intercept_)
+
+import joblib
+
+joblib.dump(model, "student_score_model.pkl")
