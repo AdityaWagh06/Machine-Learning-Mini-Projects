@@ -16,3 +16,5 @@ print(df.dtypes)
 
 print("\nMissing Values:")
 print(df.isnull().sum())
+
+x = df[[Hours]]
